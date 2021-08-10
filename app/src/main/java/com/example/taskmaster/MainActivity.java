@@ -4,10 +4,13 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.Preference;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -38,4 +41,36 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void clickbutton4(View view) {
+        Intent couseDetail = new Intent(this,TaskDetailsActivity.class);
+        couseDetail.putExtra("title", "java");
+        startActivity(couseDetail);
+    }
+
+    public void clickbutton5(View view) {
+        Intent couseDetail = new Intent(this,TaskDetailsActivity.class);
+        couseDetail.putExtra("title", "c++");
+        startActivity(couseDetail);
+
+    }
+
+    public void clickbutton6(View view) {
+        Intent couseDetail = new Intent(this,TaskDetailsActivity.class);
+        couseDetail.putExtra("title", "javascript");
+        startActivity(couseDetail);
+    }
+
+    @Override
+    public void onResume() {
+
+        super.onResume();
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        TextView address = findViewById(R.id.textView);
+        address.setText(preferences.getString("nameKey", "") + "'s Task");
+    }
+
+    public void clicksetting(View view) {
+        Intent clicksetting = new Intent(MainActivity.this, SettingActivity.class);
+        MainActivity.this.startActivity(clicksetting);
+    }
 }
