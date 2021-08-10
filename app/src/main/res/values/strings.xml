@@ -7,17 +7,26 @@
     <string name="task_description">Task Description</string>
     <string name="do_something">Do Something</string>
     <string name="total_tasks_0">Total tasks : 0</string>
-<!--    <string name="add_task">Add Task</string>-->
+    <!--    <string name="add_task">Add Task</string>-->
     <string name="all_tasks">All Tasks</string>
     <string name="my_tasks">My Tasks</string>
     <string name="all_task">all task</string>
+    <string name="java">java</string>
+    <string name="c">c++</string>
+    <string name="javascript">javascript</string>
+    <string name="title">Title</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_quisque_nisl_eros_pulvinar_facilisis_justo_mollis_auctor_consequat_urna_morbi_a_bibendum_metus_donec_scelerisque_sollicitudin_enim_eu_venenatis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu venenatis.</string>
+    <string name="save">Save</string>
+<!--    <string name="setting">Setting</string>-->
+    <string name="enter_name">Enter Name</string>
+    <string name="setting">Setting</string>
     <!--    <string name="add_task">Add Task</string>-->
     <!-- Strings used for fragments for navigation -->
-<!--    <string name="first_fragment_label">First Fragment</string>-->
-<!--    <string name="second_fragment_label">Second Fragment</string>-->
-<!--    <string name="next">Next</string>-->
-<!--    <string name="previous">Previous</string>-->
-<!--    <string name="TextView">TextView</string>-->
+    <!--    <string name="first_fragment_label">First Fragment</string>-->
+    <!--    <string name="second_fragment_label">Second Fragment</string>-->
+    <!--    <string name="next">Next</string>-->
+    <!--    <string name="previous">Previous</string>-->
+    <!--    <string name="TextView">TextView</string>-->
 
 
 </resources>
